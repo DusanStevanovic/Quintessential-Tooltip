@@ -16,6 +16,7 @@
   options: (for positioning tooltip) important note: combine only 2 properties - above, beyond, left, right, center (one vertical and one horizontal)
 
   -- above and centar :default
+  <img width="1440" alt="Screen Shot 2019-04-12 at 2 07 34 PM" src="https://user-images.githubusercontent.com/7904484/56039201-0419e800-5d34-11e9-980f-68efe4a3b11a.png">
 
     ![Alt text](https://user-images.githubusercontent.com/7904484/56038590-a2a54980-5d32-11e9-83d5-86757da32cf7.png?raw=true "Default Tooltip")
 
