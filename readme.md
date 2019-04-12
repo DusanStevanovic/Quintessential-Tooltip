@@ -2,13 +2,13 @@
 
   # Quintessential Tooltip
 
-    -----------------
-    |   _________   |
-    |   |       |   |
-    |   |_______|   |
-    |       V       |
-    |   #element    |
-    -----------------
+                                        -----------------
+                                        |   _________   |
+                                        |   |       |   |
+                                        |   |_______|   |
+                                        |       V       |
+                                        |   #element    |
+                                        -----------------
 
   Copy that you want to add to tooltip just put in `data-title` attribute of target element<br><br>
   By default, tooltip is always in the middle and above target element<br>
