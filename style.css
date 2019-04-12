@@ -13,27 +13,45 @@ h1 {
 }
 
 h3 {
-    margin: 70px 0;
+    margin: 70px 0 60px;
 }
 
 a {
-    padding: 15px 20px;
+    display: inline-block;
+    padding: 15px 19px;
     border-radius: 3px;
     text-decoration: none;
 }
 
-.default {
+code {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    background: #000000;
+    color: greenyellow;
+    margin-bottom: 50px;
+}
+
+div {
+    margin-bottom: 150px;
+}
+
+div > h3 {
+    margin-bottom: 30px;
+}
+
+.one {
     background: aliceblue;
     color: deepskyblue;
 }
 
-.default-2 {
+.two {
     background: pink;
     color: hotpink;
 }
 
 
-.default-3 {
+.three {
     background: greenyellow;
     color: mediumseagreen;
 }
@@ -45,7 +63,7 @@ a {
     display: block;
     background: #20282D;
     background: rgba(32, 40, 45, 0.95);
-    padding: 3px 5px 3px 5px;
+    padding: 5px 8px;
     color: #ffffff;
     text-align: center;
     border-radius: 2px;
@@ -57,7 +75,7 @@ a {
 
 .tooltip p {
     margin: 0;
-    font-size: 9px;
+    font-size: 12px;
     line-height: 10px;
 }
 

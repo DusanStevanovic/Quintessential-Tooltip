@@ -11,11 +11,69 @@
 </head>
 <body>
     <h1>Quintessential Tooltip</h1>
+    <p>Pretty basic tooltip if you ask me, just add <strong>options</strong> object (or not) and you are good to go.
+    <br>Setup of tooltip can be, by position:
+    </p>
     <div>
-        <h3>Default Tooltip Setup</h3>
-        <a href="javascript:void(0);" class="default" data-title="Some Icon Name">#</a>
-        <a href="javascript:void(0);" class="default-2" data-title="Random Name">#</a>
-        <a href="javascript:void(0);" class="default-3" data-title="More Random Name">#</a>
+        <h3>Above and Center (Default Tooltip Setup)</h3>
+        <code>$('.target').quintessentialTooltip();</code>
+        <a href="javascript:void(0);" class="default one" data-title="Some Icon Name">#</a>
+        <a href="javascript:void(0);" class="default-2 two " data-title="Random Name">#</a>
+        <a href="javascript:void(0);" class="default-3 three" data-title="More Random Name">#</a>
+    </div>
+    <div>
+        <h3>Above and Left (left alignment)</h3>
+        <code>$('.target').quintessentialTooltip({
+                above: true,
+                left: true
+            });</code>
+        <a href="javascript:void(0);" class="above-left one" data-title="Some Icon Name">#</a>
+        <a href="javascript:void(0);" class="above-left-2 two" data-title="Random Name">#</a>
+        <a href="javascript:void(0);" class="above-left-3 three" data-title="More Random Name">#</a>
+    </div>
+
+    <div>
+        <h3>Above and Right (right alignment)</h3>
+        <code>$('.target').quintessentialTooltip({
+                    above: true,
+                    right: true
+                });</code>
+        <a href="javascript:void(0);" class="above-right one" data-title="Some Icon Name">#</a>
+        <a href="javascript:void(0);" class="above-right-2 two" data-title="Random Name">#</a>
+        <a href="javascript:void(0);" class="above-right-3 three" data-title="More Random Name">#</a>
+    </div>
+
+    <div>
+        <h3>Beyond and left (left alignment)</h3>
+        <code>$('.target').quintessentialTooltip({
+                        beyond: true,
+                        left: true
+                    });</code>
+        <a href="javascript:void(0);" class="beyond-left one" data-title="Some Icon Name">#</a>
+        <a href="javascript:void(0);" class="beyond-left-2 two" data-title="Random Name">#</a>
+        <a href="javascript:void(0);" class="beyond-left-3 three" data-title="More Random Name">#</a>
+    </div>
+
+    <div>
+        <h3>Beyond and right (right alignment)</h3>
+        <code>$('.target').quintessentialTooltip({
+                            beyond: true,
+                            right: true
+                        });</code>
+        <a href="javascript:void(0);" class="beyond-right one" data-title="Some Icon Name">#</a>
+        <a href="javascript:void(0);" class="beyond-right-2 two" data-title="Random Name">#</a>
+        <a href="javascript:void(0);" class="beyond-right-3 three" data-title="More Random Name">#</a>
+    </div>
+
+    <div>
+        <h3>Beyond and center</h3>
+        <code>$('.target').quintessentialTooltip({
+                                beyond: true,
+                                center: true
+                            });</code>
+        <a href="javascript:void(0);" class="beyond-center one" data-title="Some Icon Name">#</a>
+        <a href="javascript:void(0);" class="beyond-center-2 two" data-title="Random Name">#</a>
+        <a href="javascript:void(0);" class="beyond-center-3 three" data-title="More Random Name">#</a>
     </div>
     <script src="app.js"></script>
 </body>
