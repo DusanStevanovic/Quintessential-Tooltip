@@ -1,3 +1,13 @@
+/**
+ * Quintessential Tooltip - basic tooltip
+ *
+ * @author Dusan Stevanovic
+ *
+ * Options description:
+ * @param {boolean} verticalPositioning - beyond or above
+ * @param {boolean} horizontalAlingment - left or right
+ */
+
 (function ($) {
 
     $.fn.quintessentialTooltip = function (options) {
