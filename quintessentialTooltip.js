@@ -30,7 +30,9 @@
             var top;
             var left;
 
-            $('body').append('<span class="tooltip q-tooltip"><p>' + text + '</p></span>');
+            if (!$('.q-tooltip').length) {
+                $('body').append('<span class="tooltip q-tooltip"><p>' + text + '</p></span>');
+            }
 
             if (options !== 'defaultValue') {
                 switch (true) {
