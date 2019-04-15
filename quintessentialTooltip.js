@@ -27,7 +27,6 @@
         $(document).on('mouseover', target, function () {
             var $this = $(this);
             var text = $this.data('title');
-            var offset = 6;
             var top;
             var left;
 
@@ -83,7 +82,7 @@
                             'right': 'auto'
                         });
 
-                        top = $this.offset().top + $this.outerHeight() + offset;
+                        top = $this.offset().top + $this.outerHeight() + ($('.q-tooltip').find('.arrow-up').outerHeight() * 2);
                         left = $this.offset().left;
 
                         break;
@@ -97,14 +96,14 @@
                             'left': 'auto'
                         });
 
-                        top = $this.offset().top + $this.outerHeight() + offset;
+                        top = $this.offset().top + $this.outerHeight() + ($('.q-tooltip').find('.arrow-up').outerHeight() * 2);
                         left = $this.offset().left - ($('.q-tooltip').outerWidth() - $this.outerWidth());
 
                         break;
                     case (optionBeyond && optionCenter):
                         $('<span class="arrow-up"></span>').insertAfter($('.q-tooltip p'));
 
-                        top = $this.offset().top + $this.outerHeight() + offset;
+                        top = $this.offset().top + $this.outerHeight() + ($('.q-tooltip').find('.arrow-up').outerHeight() * 2);
                         left = $this.offset().left - (($('.q-tooltip').outerWidth() / 2) - ($this.outerWidth() / 2));
 
                         break;
