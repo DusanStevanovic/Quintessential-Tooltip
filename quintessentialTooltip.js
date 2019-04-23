@@ -142,8 +142,7 @@
             }
         });
 
-        $(target).on('mouseout', function () { $('.q-tooltip').remove() });
-
+        $(document).on('mouseout', target, function () { $('.q-tooltip').remove() });
     };
 
 }(jQuery));
